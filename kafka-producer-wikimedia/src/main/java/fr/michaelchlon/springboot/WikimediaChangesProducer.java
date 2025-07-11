@@ -23,7 +23,7 @@ public class WikimediaChangesProducer {
   }
 
   // ______________________________________________________________________
-  public void sendMessage(String message) throws InterruptedException {
+  public void sendMessage() throws InterruptedException {
     String topic = "wikimedia_recentchange";
 
     // To read real time string from wikimedia, we use event source
