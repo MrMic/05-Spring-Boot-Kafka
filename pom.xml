@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.0</version>
+		<version>3.5.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>fr.michaelchlon</groupId>
@@ -14,10 +14,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-kafka-real-world-project</name>
 	<description>Demo project for Spring Boot and Kafka</description>
-    <modules>
-        <module>kafka-producer-wikimedia</module>
-    </modules>
-    <packaging>pom</packaging>
+	<modules>
+		<module>kafka-producer-wikimedia</module>
+		<module>kafka-consumer-database</module>
+	</modules>
+	<packaging>pom</packaging>
 	<url />
 	<licenses>
 		<license />
