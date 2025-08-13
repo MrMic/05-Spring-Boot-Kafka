@@ -15,4 +15,5 @@ public class WikimediaData {
 
   @Lob
   private String WikiEventData;
+
 }
